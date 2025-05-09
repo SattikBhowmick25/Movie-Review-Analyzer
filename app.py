@@ -31,7 +31,7 @@ with open('tfidf.pkl', 'rb') as f:
     tfidf = pickle.load(f)
 
 # MongoDB Atlas setup
-client = pymongo.MongoClient("mongodb+srv://steel14:HHW0QRsXdCfRD65C@cluster0.efyfrvw.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+client = pymongo.MongoClient("mongodb+srv://sattik:<amrakarajumca>@moviereviewanalyzer.lwgszp9.mongodb.net/?retryWrites=true&w=majority&appName=MovieReviewAnalyzer")
 db = client.movie_reviews
 reviews_collection = db.reviews
 
